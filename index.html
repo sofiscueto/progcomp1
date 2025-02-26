@@ -1,0 +1,35 @@
+<!--17/02/2025-->
+<!DOCTYPE html>   <!--Indica que o documento é HTML5-->
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8"> <!--sistema de codificação do português-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--largura da página será a largura do dispositivo-->
+        <title>Cartão de Apresentação</title>
+        <style>
+            body {
+                /* fonte do texto*/
+                font-family: Arial, sans-serif;
+                background-color: rgb(182, 193, 253);
+                /* usa modelo FlexBox, conceito de caixa para posicionamento*/
+                display: flex;
+                justify-content: center; /*centraliza o conteúdo na horizontal*/
+                height: 100vh; /*altura da página 100% do tamanho da altura da página*/
+                align-items: center; /*centraliza o conteúdo na vertical*/
+            }
+            .container{
+                background-color: rgb(149, 165, 250);
+                padding: 20px; /*espaçamento interno*/
+                border-radius: 20px; /*borda*/
+                text-align: center; /*texto centralizado no container*/
+                box-shadow: 0 4px 8px rgb(63, 69, 105); /*sombra*/
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container"> <!--Divisão lógica de conteúdo-->
+            <img src="https://placehold.co/150" alt="Foto de Perfil"/>
+            <h2> Sofia Cueto </h2> <!--Cabeçalho de nível 2-->
+            <p> Estudante de Bacharelado em Sistemas de Informação</p> <!--Parágrafo-->
+        </div>
+    </body>
+</html>
