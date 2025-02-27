@@ -24,12 +24,14 @@ button {
     /* 10 abaixo e 10 acima e 20 esquerda e 20 direita */
     padding: 10px 20px;
     border-radius: 20px;
+    transition: transform 0.2s ease-in-out; /* Transição suave para transform */
 }
+
 /* ao passar o mouse em cima do botão */
 button:hover {
     background-color: rgb(255, 179, 0);
     color: rgb(0, 0, 0);
-
+    transform: translateY(-2px); /* Efeito de elevação ao passar o mouse */
 }
 
 .foto {
@@ -41,4 +43,5 @@ button:hover {
     height: 300px;
     /* espaçamento externo abaixo */
     margin-bottom: 10px;
+    border: 5px solid #cccbd070; /* Cor da borda na foto*/
 }
