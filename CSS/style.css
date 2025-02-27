@@ -1,43 +1,41 @@
-/* 21/02/2025 */
+/* 26/02/2025 */
 body {
-    font-family: Arial, sans-serif; /* fonte */
-    display: flex; /* usa o FlexBox para exibir o conteúdo */
+    /* fonte do texto */
+    font-family: Arial, sans-serif;
+    background-color: cyan;
+    /* usa modelo FlexBox, conceito de caixa para posicionamento */
+    display: flex;
     justify-content: center; /* centraliza na horizontal */
-    height: 100vh; /* altura da página é todo o conteúdo dela */
+    height: 100vh; /* altura da página 100% da altura da página*/
     align-items: center; /* centraliza na vertical */
-    background-color: rgb(200, 197, 250);
-    }
+
+}
 .container {
-    background-color: rgb(170, 165, 248);
+    background-color: white;
     padding: 20px; /* espaçamento interno */
-    border-radius: 10px; /* bordas arredondadas */
-    box-shadow: 2px 4px; 
-    text-align: center; /* centraliza o texto */
-    }
-   
-h2{
-    color:rgb(114, 93, 211);
-    padding: 5px;
+    border-radius: 10px; /* borda */
+    text-align: center; /* texto centralizado */
+    box-shadow: 0 4px 8px ; /* sombra */
 }
-
-button{
-    background-color: rgb(200, 197, 250);
-    color: rgb(72, 64, 160);
+button {
+    background-color: blue;
+    color: white; 
     border: none;
-    padding: 5px; /* espaçamento interno */
-    border-radius: 10px; /* bordas arredondadas */
-    cursor: pointer; /* mouse vira um ponteiro */
+    /* 10 abaixo e 10 acima e 20 esquerda e 20 direita */
+    padding: 10px 20px;
+}
+/* ao passar o mouse em cima do botão */
+button:hover {
+    background-color: red;
 }
 
-/* cria efeito de passar o mouse no botão */
-button:hover{
-    background-color: rgb(108, 67, 161);
-    color: rgb(170, 165, 248);
-}
-
-.imagem{
-    border-radius: 50%; 
-    width: 100px; /* largura */
-    height: 100px; /* altura */
-    margin-bottom: 10px; /* espaçamento externo */
+.foto {
+    /* borda com cantos arredondados*/
+    border-radius: 50%;
+    /* largura */
+    width: 100px;
+    /* altura */
+    height: 100px;
+    /* espaçamento externo abaixo */
+    margin-bottom: 10px;
 }
