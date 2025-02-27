@@ -1,0 +1,43 @@
+/* 21/02/2025 */
+body {
+    font-family: Arial, sans-serif; /* fonte */
+    display: flex; /* usa o FlexBox para exibir o conteúdo */
+    justify-content: center; /* centraliza na horizontal */
+    height: 100vh; /* altura da página é todo o conteúdo dela */
+    align-items: center; /* centraliza na vertical */
+    background-color: rgb(200, 197, 250);
+    }
+.container {
+    background-color: rgb(170, 165, 248);
+    padding: 20px; /* espaçamento interno */
+    border-radius: 10px; /* bordas arredondadas */
+    box-shadow: 2px 4px; 
+    text-align: center; /* centraliza o texto */
+    }
+   
+h2{
+    color:rgb(114, 93, 211);
+    padding: 5px;
+}
+
+button{
+    background-color: rgb(200, 197, 250);
+    color: rgb(72, 64, 160);
+    border: none;
+    padding: 5px; /* espaçamento interno */
+    border-radius: 10px; /* bordas arredondadas */
+    cursor: pointer; /* mouse vira um ponteiro */
+}
+
+/* cria efeito de passar o mouse no botão */
+button:hover{
+    background-color: rgb(108, 67, 161);
+    color: rgb(170, 165, 248);
+}
+
+.imagem{
+    border-radius: 50%; 
+    width: 100px; /* largura */
+    height: 100px; /* altura */
+    margin-bottom: 10px; /* espaçamento externo */
+}
