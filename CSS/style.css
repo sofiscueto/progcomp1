@@ -20,7 +20,6 @@ button {
     border: none;
     padding: 10px 20px; /* 10 abaixo e 10 acima e 20 esquerda e 20 direita (espaçamento interno) */
     border-radius: 20px; /* bordas arredondadas */
-    transition: transform 0.2s ease-in-out; /* Transição suave para transform */
     cursor: pointer; /* mouse vira um ponteiro */
 }
 /* ao passar o mouse em cima do botão */
