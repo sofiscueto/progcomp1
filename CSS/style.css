@@ -1,47 +1,43 @@
-/* 26/02/2025 */
 body {
-    /* fonte do texto */
-    font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif; /* fonte do texto */
     background-color: rgb(53, 130, 255);
-    /* usa modelo FlexBox, conceito de caixa para posicionamento */
-    display: flex;
+    display: flex;/* usa o FlexBox para exibir o conteúdo */
     justify-content: center; /* centraliza na horizontal */
-    height: 100vh; /* altura da página 100% da altura da página*/
+    height: 100vh; /*  altura da página é todo o conteúdo dela */
     align-items: center; /* centraliza na vertical */
 
 }
 .container {
     background-color: white;
     padding: 20px; /* espaçamento interno */
-    border-radius: 10px; /* borda */
+    border-radius: 10px; /* bordas arredondadas */
     text-align: center; /* texto centralizado */
-    box-shadow: 0 4px 8px ; /* sombra */
+    box-shadow: 0 4px 8px ; /* sombreamento 4px (horizontal) 8px (vertical) */
 }
 button {
     background-color: rgb(53, 130, 255);
     color: white; 
     border: none;
-    /* 10 abaixo e 10 acima e 20 esquerda e 20 direita */
-    padding: 10px 20px;
-    border-radius: 20px;
+    padding: 10px 20px; /* 10 abaixo e 10 acima e 20 esquerda e 20 direita (espaçamento interno) */
+    border-radius: 20px; /* bordas arredondadas */
     transition: transform 0.2s ease-in-out; /* Transição suave para transform */
+    cursor: pointer; /* mouse vira um ponteiro */
 }
-
 /* ao passar o mouse em cima do botão */
 button:hover {
     background-color: rgb(255, 179, 0);
     color: rgb(0, 0, 0);
     transform: translateY(-2px); /* Efeito de elevação ao passar o mouse */
 }
-
-.foto {
-    /* borda com cantos arredondados*/
-    border-radius: 10%;
-    /* largura */
-    width: 300px;
-    /* altura */
-    height: 300px;
-    /* espaçamento externo abaixo */
-    margin-bottom: 10px;
+.imagem {
+    border-radius: 10%;/* borda com cantos arredondados*/
+    width: 300px; /* largura */
+    height: 300px; /* altura */
+    margin-bottom: 10px; /* espaçamento externo */
     border: 5px solid #cccbd070; /* Cor da borda na foto*/
 }
+h2 {
+   padding: 5px; /* espaçamento interno */
+}
+
+
