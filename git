@@ -21,8 +21,11 @@ repita os passos 4, 5 e 7
 dir
 git init
 git add .
-git config --global user.name "sofiscueto"
-git config --global user.email "sofiacuetobarros@gmail.com"
-git commit -m "HTML CSS JS"
+git config --global user.name "user"
+git config --global user.email "...@gmail.com"
+git commit -m "atualização"
 git branch -M main
 git push *link da  pagina do git*main
+
+
+
